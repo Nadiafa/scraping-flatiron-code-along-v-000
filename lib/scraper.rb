@@ -20,6 +20,9 @@ class Scraper
     html = open(web_page)
   end 
   
+  def get_courses
+    html.css
+  
 end
 
 
