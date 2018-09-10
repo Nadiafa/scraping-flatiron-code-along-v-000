@@ -22,9 +22,9 @@ class Scraper
     @doc
   end 
   
-  # def get_courses
-  #   @doc.css(".posts-holder .post")
-  # end
+  def get_courses
+    get_page.css(".posts-holder .post")
+  end
   
   # def make_courses
   #   get_courses.each { |course| course = Course.new } 
