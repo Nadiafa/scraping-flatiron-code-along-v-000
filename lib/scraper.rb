@@ -25,9 +25,9 @@ class Scraper
   #   html.css(arg)
   # end
   
-  def make_courses
-    get_courses.each { |course| course = Course.new } 
-  end 
+  # def make_courses
+  #   get_courses.each { |course| course = Course.new } 
+  # end 
   
 end
 
