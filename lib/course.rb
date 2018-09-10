@@ -6,7 +6,7 @@ class Course
   
   def initialize(title:, schedule:, description:)
     @title = title
-    @schedule = description:= schedule
+    @schedule = schedule
     @description = description
     @@all << self 
   end
