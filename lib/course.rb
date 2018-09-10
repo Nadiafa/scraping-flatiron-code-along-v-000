@@ -7,7 +7,7 @@ class Course
   end
   
   def self.all 
-    return @@all 
+    puts @@all 
   end 
   
 end 
