@@ -16,7 +16,7 @@ class Scraper
     end
   end
   
-  def get_page 
+  def get_page(web_page)
     html = open(web_page)
   end 
   
