@@ -6,7 +6,7 @@ class Course
     @@all 
   end 
   
-  def initialize(title, schedule, description)
+  def initialize(title:, schedule:, description:)
     @title = title
     @schedule = schedule
     @description = description
