@@ -21,9 +21,9 @@ class Scraper
     doc = Nokogiri::HTML(html)
   end 
   
-  # def get_courses
-  #   html.css(arg)
-  # end
+  def get_courses
+    html.css(arg)
+  end
   
   # def make_courses
   #   get_courses.each { |course| course = Course.new } 
