@@ -5,6 +5,9 @@ class Course
   @@all = []
   
   def initialize(title:, schedule:, description:)
+    @title = title
+    @schedule = description:= schedule
+    @description = description
     @@all << self 
   end
   
