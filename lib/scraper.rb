@@ -23,12 +23,12 @@ class Scraper
   end 
   
   def get_courses
-    courses = get_page.css("#course-grid .posts-holder .post")
-    courses
+    @courses = get_page.css("#course-grid .posts-holder .post")
+    @courses
   end
   
   def make_courses
-    courses.each do |course| 
+    @courses.each do |course| 
       course = Course.new
       course.title = course.css("h2").text
       course.schedule = course.css("em").text
